@@ -30,11 +30,11 @@ const Education = () => {
             }`}
           >
             {/* Timeline Circle */}
-            <div className="absolute md:hidden sm:left-1/2 left-0 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
+            <div className="absolute md:hidden sm:left-1/2 left-0 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-16 h-16 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10 ">
               <img
                 src={edu.img}
                 alt={edu.school}
-                className="w-full h-full object-cover rounded-full"
+                className="w-full h-full object-cover rounded-full "
               />
             </div>
 
@@ -47,11 +47,11 @@ const Education = () => {
               {/* Flex container for image and text */}
               <div className="flex items-center space-x-6">
                 {/* School Logo/Image */}
-                <div className="w-24 h-16 bg-white rounded-md overflow-hidden">
+                <div className="w-24 h-16 background-white rounded-md overflow-hidden">
                   <img
                     src={edu.img}
                     alt={edu.school}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain "
                   />
                 </div>
 
